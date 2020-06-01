@@ -1,0 +1,31 @@
+.footer {
+    background: #FFFAF2;
+    padding: 93px 0 189px;
+}
+
+.footer__title {
+    margin-bottom: 51px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer li, .mail {
+    margin-bottom: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+}
+
+.up-arrow {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    right: 180px;
+    bottom: 70px;
+    transform: rotate(-90deg);
+}

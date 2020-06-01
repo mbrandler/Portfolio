@@ -1,0 +1,38 @@
+.portfolio {
+    padding: 93px 0 145px;
+}
+
+.portfolio__title {
+    margin-bottom: 86px;
+}
+
+.portfolio__title a {
+    text-decoration: none;
+}
+
+.research {
+    font-weight: normal;
+    margin-bottom: 48px;
+}
+
+.portfolio-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-content__text {
+    margin-right: 125px;
+}
+
+.portfolio-images {
+    display: flex;
+
+}
+
+.portfolio-images__image {
+    padding: 0 30px 30px 0;
+}
+
+.portfolio-images__image-2 {
+    padding-right: 0;
+}

@@ -1,0 +1,21 @@
+.header, .header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding-top: 93px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav li {
+    padding-left: 60px;
+}
+
+@media (max-width: 1023px) {
+
+}

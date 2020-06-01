@@ -1,0 +1,13 @@
+.about {
+    line-height: 30px;
+    padding: 93px 0;
+}
+
+.about__title {
+    margin-bottom: 76px;
+}
+
+.about__text {
+    margin-bottom: 25px;
+    text-align: justify;
+}

@@ -1,0 +1,38 @@
+.skills {
+    background: #FFFAF2;
+    padding: 93px 0 145px;
+}
+
+.skills__title {
+    margin-bottom: 86px;
+}
+
+.picture {
+    width: 350px;
+    height: 340px;
+}
+
+.skills-content, .skills-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-desc {
+    flex-direction: column;
+}
+
+.skills-desc__tools {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tools, .progress {
+    margin-left: 78px;
+}
+
+
+.progress {
+    width: 446px;
+    height: 24px;
+    background: #C66C49;
+}
