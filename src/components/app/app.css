@@ -33,3 +33,9 @@ li {
     max-width: 1110px;
     margin: 0 auto;
 }
+
+@media (max-width: 1250px) {
+    .wrapped {
+        margin: 0 25px;
+    }
+}

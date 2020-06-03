@@ -21,3 +21,8 @@
     color: white;
 }
 
+@media (max-width: 768px) {
+    .top-section {
+        text-align: center;
+    }
+}

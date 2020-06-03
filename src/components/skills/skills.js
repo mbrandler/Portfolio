@@ -15,11 +15,13 @@ const Skills = () => {
                     <div className="skills-desc">
                         <div className="skills-desc__tools">
                             <h4>Profile</h4>
-                            <span>UI / UX Engineer, Front-end Developer</span>
+                            <span className="tools">UI / UX Engineer, Front-end Developer</span>
                         </div>
                         <div className="skills-desc__tools">
                             <h4>UX Research</h4>
-                            <div className="progress"></div>
+                            <div className="progress">
+                                <div className="progress__value"style={{width: '70%'}}></div>
+                            </div>
                         </div>
                         <div className="skills-desc__tools">
                             <h4>Tools</h4>
@@ -27,7 +29,9 @@ const Skills = () => {
                         </div>
                         <div className="skills-desc__tools">
                             <h4>UI Design</h4>
-                            <div className="progress"></div>
+                            <div className="progress">
+                                <div className="progress__value" style={{width: '80%'}}></div>
+                            </div>
                         </div>
                         <div className="skills-desc__tools">
                             <h4>Tools</h4>
@@ -35,7 +39,9 @@ const Skills = () => {
                         </div>
                         <div className="skills-desc__tools">
                             <h4>Front-end Dev</h4>
-                            <div className="progress"></div>
+                            <div className="progress">
+                                <div className="progress__value" style={{width: '90%'}}></div>
+                            </div>
                         </div>
                         <div className="skills-desc__tools">
                             <h4>Tools</h4>

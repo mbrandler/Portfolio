@@ -8,8 +8,8 @@
 }
 
 .picture {
-    width: 350px;
-    height: 340px;
+    max-width: 350px;
+    max-height: 340px;
 }
 
 .skills-content, .skills-desc {
@@ -30,9 +30,29 @@
     margin-left: 78px;
 }
 
-
 .progress {
     width: 446px;
     height: 24px;
-    background: #C66C49;
+    background-color: #F5D6AB;
+}
+.progress__value {
+    width: 80%;
+    height: 100%;
+    background-color: #C66C49;
+}
+
+.tools {
+    width: 446px;
+}
+
+@media (max-width: 768px) {
+    .skills {
+        text-align: center;
+    }
+    .skills-content {
+        flex-direction: column;
+    }
+    .picture {
+        align-self: center;
+    }
 }

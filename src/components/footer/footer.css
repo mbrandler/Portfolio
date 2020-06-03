@@ -4,6 +4,9 @@
 }
 
 .footer__title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.6rem;
     margin-bottom: 51px;
 }
 
@@ -23,9 +26,35 @@
 
 .up-arrow {
     position: fixed;
-    width: 24px;
-    height: 24px;
     right: 180px;
     bottom: 70px;
     transform: rotate(-90deg);
+}
+
+.up-arrow img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-links {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+}
+
+.footer-links__column {
+    /*display: flex;*/
+}
+
+@media (max-width: 768px) {
+    .footer__title {
+        text-align: center;
+    }
+    .footer-content {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .footer-links {
+        margin-bottom: 30px;
+    }
 }
