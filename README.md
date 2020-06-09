@@ -1,3 +1,7 @@
+Landing Page "Portfolio"
+
+Ссылка на макет: https://www.figma.com/file/ArPTxp68NcZuzEqEyotQBb/Porto-(Copy)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
