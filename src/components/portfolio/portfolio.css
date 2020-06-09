@@ -42,6 +42,14 @@
     transform: rotate(180deg);
 }
 
+.left-arrow:hover, .left-arrow:focus, .left-arrow:active {
+    transform: scale(1.2) rotate(180deg);
+}
+
+.right-arrow:hover, .right-arrow:focus, .right-arrow:active {
+    transform: scale(1.2);
+}
+
 .portfolio-images {
     display: flex;
 }
@@ -61,11 +69,22 @@
 @media (max-width: 768px) {
     .portfolio {
         text-align: center;
+        padding: 25px 0;
     }
     .portfolio-content {
         flex-direction: column;
     }
     .arrows {
         display: none;
+    }
+    .portfolio-content__text {
+        margin: 0 0 25px 0;
+    }
+    .portfolio__title {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .research {
+        margin-bottom: 15px;
     }
 }

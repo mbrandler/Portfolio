@@ -8,51 +8,80 @@
 }
 
 .picture {
-    max-width: 350px;
-    max-height: 340px;
+    width: 350px;
+    height: 340px;
 }
 
-.skills-content, .skills-desc {
+.skills-content {
     display: flex;
-    justify-content: space-between;
 }
 
 .skills-desc {
-    flex-direction: column;
-}
-
-.skills-desc__tools {
     display: flex;
     justify-content: space-between;
+    margin-left: 12vw;
 }
 
-.tools, .progress {
-    margin-left: 78px;
+.tools-value {
+    margin-left: 7vw;
 }
 
 .progress {
-    width: 446px;
     height: 24px;
     background-color: #F5D6AB;
 }
 .progress__value {
-    width: 80%;
     height: 100%;
     background-color: #C66C49;
 }
 
 .tools {
-    width: 446px;
+    text-align: left;
+    width: max-content;
+}
+
+.tools_title, .progress, .tools {
+    margin-bottom: 20px;
+}
+
+.tools_titles {
+    font-weight: 600;
+    text-align: start;
+}
+
+.tools_title {
+    width: max-content;
+}
+
+.skills__profile {
+    margin-bottom: 65px;
 }
 
 @media (max-width: 768px) {
+    .skills__title {
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
     .skills {
         text-align: center;
+        padding: 25px 0;
     }
     .skills-content {
         flex-direction: column;
     }
     .picture {
+        width: 224px;
+        height: 218px;
         align-self: center;
+        margin-bottom: 25px;
+    }
+    .skills-desc {
+        margin-left: 0;
+    }
+    .progress {
+        height: 18px;
+    }
+    .skills__profile {
+        margin-bottom: 30px;
     }
 }

@@ -6,6 +6,7 @@
 }
 
 body {
+    min-width: 375px;
     margin: 0 auto;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 18px;
@@ -13,8 +14,9 @@ body {
 }
 
 img {
- width: 100%;
- height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 a {
@@ -36,6 +38,18 @@ li {
 
 @media (max-width: 1250px) {
     .wrapped {
-        margin: 0 25px;
+        margin: 0 35px;
+    }
+}
+
+@media (max-width: 570px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 470px) {
+    body {
+        font-size: 12px;
     }
 }

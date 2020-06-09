@@ -13,6 +13,29 @@ const Header = () => {
     } catch (e) {
     }
 
+    const links = [
+        { link: '#', name: 'Home' },
+        { link: '#about', name: 'About' },
+        { link: '#skills', name: 'Skills' },
+        { link: '#portfolio', name: 'Portfolio' },
+        { link: '#contact', name: 'Contact' }
+    ];
+
+    const closeNav = () => {
+        setState('false')
+    };
+
+    const navLinks = links.map((el, index) => {
+        return (
+            <li className="nav-link"
+            key={index}>
+                <a href={el.link}
+                   onClick={closeNav}>
+                    {el.name}
+                </a>
+            </li>
+        )
+    });
 
     return (
         <section className="header">
@@ -34,11 +57,7 @@ const Header = () => {
                 </div>
 
                 <ul className="header__nav">
-                    <li><a href="#" onClick={() => setState('false')}>Home</a></li>
-                    <li><a href="#about " onClick={() => setState('false')}>About</a></li>
-                    <li><a href="#skills" onClick={() => setState('false')}>Skills</a></li>
-                    <li><a href="#portfolio" onClick={() => setState('false')}>Portfolio</a></li>
-                    <li><a href="#contact" onClick={() => setState('false')}>Contact</a></li>
+                    {navLinks}
                 </ul>
             </div>
 

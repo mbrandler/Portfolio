@@ -15,5 +15,13 @@
 @media (max-width: 768px) {
     .about {
         text-align: center;
+        padding: 25px 0;
+    }
+    .about__title {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .about__text {
+        line-height: 15px;
     }
 }
