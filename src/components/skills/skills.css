@@ -17,13 +17,15 @@
 }
 
 .skills-desc {
+    width: 634px;
     display: flex;
     justify-content: space-between;
-    margin-left: 12vw;
+    margin-left: 125px;
 }
 
 .tools-value {
-    margin-left: 7vw;
+    margin-left: 66px;
+    width: 446px;
 }
 
 .progress {
@@ -38,10 +40,11 @@
 .tools {
     text-align: left;
     width: max-content;
+    margin-bottom: 20px;
 }
 
-.tools_title, .progress, .tools {
-    margin-bottom: 20px;
+.tools_title, .progress {
+    margin-bottom: 24px;
 }
 
 .tools_titles {
@@ -54,7 +57,30 @@
 }
 
 .skills__profile {
-    margin-bottom: 65px;
+    margin-bottom: 69px;
+}
+
+@media (max-width: 1180px) {
+    .skills-content {
+        flex-direction: column;
+    }
+    .skills {
+        text-align: center;
+        padding: 25px 0;
+    }
+    .picture {
+        align-self: center;
+        margin: 25px 0;
+    }
+    .skills-desc {
+        margin: auto;
+    }
+    .tools-value {
+        margin-left: 30px;
+    }
+    .skills__profile {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -62,26 +88,30 @@
         font-weight: 600;
         margin-bottom: 25px;
     }
-    .skills {
-        text-align: center;
-        padding: 25px 0;
-    }
-    .skills-content {
-        flex-direction: column;
-    }
     .picture {
         width: 224px;
         height: 218px;
-        align-self: center;
-        margin-bottom: 25px;
     }
     .skills-desc {
-        margin-left: 0;
+        max-width: 85vw;
+    }
+    .tools_title, .tools {
+        margin-bottom: 18px;
     }
     .progress {
         height: 18px;
+        margin-bottom: 15px;
+    }
+    .tools-value {
+        margin-left: 16px;
     }
     .skills__profile {
         margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    .skills-desc {
+        max-width: 309px;
     }
 }
